@@ -1,0 +1,45 @@
+<Alloy>
+	<Window class="container">
+		
+		<View id="top">
+			<ImageView id="weatherIcon" />
+			<Label id="cityName">Kolding</Label>
+			<Label id="date">Torsdag den 4. feb.</Label>
+		</View>
+		
+		
+		<View id="middle">
+			<Label id="currentTemperature">-48</Label>
+		</View>
+		
+		
+		<View id="bottom">
+			<View id="weekdaysHeadline">
+				<Label id="dayOne">Fre</Label>
+				<Label id="dayTwo">Lør</Label>
+				<Label id="dayThree">Søn</Label>
+			</View>
+			
+			<View id="weedaysTemperatureContainer">
+				<View class="weedayItem">
+					<ImageView id="weedayItemIconOne" />
+					<Label id="weedayItemTemperatureOne">-8</Label>
+					<View class="vLine"></View>
+				</View>
+				
+				<View class="weedayItem">
+					<ImageView id="weedayItemIconTwo" />
+					<Label id="weedayItemTemperatureTwo">-5</Label>
+					<View class="vLine"></View>
+				</View>
+						
+				<View class="weedayItem">
+					<ImageView id="weedayItemIconThree" />
+					<Label id="weedayItemTemperatureThree">-8</Label>
+				</View>
+					
+			</View>
+		</View>
+
+	</Window>
+</Alloy>
