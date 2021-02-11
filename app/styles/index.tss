@@ -1,176 +1,139 @@
-
-".container":{
-	backgroundColor:"#fff",	
+".container" : {
+	backgroundColor: "#fff"
 }
-
-
-"#top":{
-	width:250,
-	height:Ti.UI.SIZE,
-	top:0,
-
+"#top" : {
+	width: 250,
+	height: Ti.UI.SIZE,
+	top: 100
 }
-
-"#weatherIcon":{
-	width:100,
-	height:100,
-	image:"/img/snow.png",
-	left:0,
-	top:0,
+"#weatherIcon" : {
+	width: 100,
+	height: 100,
+	image: "/img/snow.png",
+	left: 0,
+	top: 0
 }
-
-"#cityName":{
+"#cityName" : {
 	font: {
-		fontSize:18
+		fontSize: 18
 	},
-	color:"#333",
-	top:30,
-	right:0
+	color: "#333",
+	top: 30,
+	right: 0
 }
-
-
-"#date":{
+"#date" : {
 	font: {
 		fontSize: 12
 	},
-	color:"#333",
-	top:60,
-	right:0
+	color: "#333",
+	top: 60,
+	right: 0
 }
-
-
-"#middle":{
-	height:Ti.UI.SIZE,
-
+"#middle" : {
+	height: Ti.UI.SIZE
 }
-
-"#currentTemperature":{
-		font: {
-		fontSize:90
-	},
-	color:"#333",
-}
-
-
-"#bottom":{
-	bottom:0,
-	height:"30%",
-	backgroundColor:"#000",
-	layout:"vertical",
-}
-
-"#weekdaysHeadline":{
-	layout:"horizontal",
-	height:Ti.UI.SIZE,
-	top:10
-}
-
-"#dayOne":{
-	width:"33%",
-	height:Ti.UI.SIZE,
-	
+"#currentTemperature" : {
 	font: {
-		fontSize:25
+		fontSize: 90
 	},
-	color:"#fff",
-	left:0,
-	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#333"
 }
-
-"#dayTwo":{
-	width:"33%",
-	height:Ti.UI.SIZE,
-	
+"#bottom" : {
+	bottom: 0,
+	height: "30%",
+	backgroundColor: "#000",
+	layout: "vertical"
+}
+"#weekdaysHeadline" : {
+	layout: "horizontal",
+	height: Ti.UI.SIZE,
+	top: 10
+}
+"#dayOne" : {
+	width: "33%",
+	height: Ti.UI.SIZE,
 	font: {
-		fontSize:25
+		fontSize: 25
 	},
-	color:"#fff",
-	left:0,
-	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#fff",
+	left: 0,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
 }
-
-
-"#dayThree":{
-	width:"33%",
-	height:Ti.UI.SIZE,
-	
+"#dayTwo" : {
+	width: "33%",
+	height: Ti.UI.SIZE,
 	font: {
-		fontSize:25
+		fontSize: 25
 	},
-	color:"#fff",
-	left:0,
-	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#fff",
+	left: 0,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
 }
-
-"#weedaysTemperatureContainer":{
-	layout:"horizontal",
-	height:Ti.UI.SIZE,
-	top:20
-}
-
-".weedayItem":{
-	width:"33%",
-	height:Ti.UI.SIZE,
-}
-
-"#weedayItemIconOne":{
-	image:"/img/snow.png",
-	width:50,
-	height:50,
-	top:0,
-}
-
-"#weedayItemTemperatureOne":{
-	height:Ti.UI.SIZE,
-	top:70,
+"#dayThree" : {
+	width: "33%",
+	height: Ti.UI.SIZE,
 	font: {
-		fontSize:18
+		fontSize: 25
 	},
-	color:"#fff",
-	
+	color: "#fff",
+	left: 0,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
 }
-
-
-
-"#weedayItemIconTwo":{
-	image:"/img/snow.png",
-	width:50,
-	height:50,
-	top:0
+"#weedaysTemperatureContainer" : {
+	layout: "horizontal",
+	height: Ti.UI.SIZE,
+	top: 20
 }
-
-"#weedayItemTemperatureTwo":{
-	height:Ti.UI.SIZE,
-	top:70,
+".weedayItem" : {
+	width: "33%",
+	height: Ti.UI.SIZE
+}
+"#weedayItemIconOne" : {
+	image: "/img/snow.png",
+	width: 50,
+	height: 50,
+	top: 0
+}
+"#weedayItemTemperatureOne" : {
+	height: Ti.UI.SIZE,
+	top: 70,
 	font: {
-		fontSize:18
+		fontSize: 18
 	},
-	color:"#fff",
-	
+	color: "#fff"
 }
-
-
-"#weedayItemIconThree":{
-	image:"/img/snow.png",
-	width:50,
-	height:50,
-	top:0
+"#weedayItemIconTwo" : {
+	image: "/img/snow.png",
+	width: 50,
+	height: 50,
+	top: 0
 }
-
-"#weedayItemTemperatureThree":{
-	height:Ti.UI.SIZE,
-	top:70,
+"#weedayItemTemperatureTwo" : {
+	height: Ti.UI.SIZE,
+	top: 70,
 	font: {
-		fontSize:18
+		fontSize: 18
 	},
-	color:"#fff",
-	
+	color: "#fff"
 }
-
-".vLine":{
-	width:1,
-	height:Ti.UI.FILL,
-	top:0,
-	right:0,
-	backgroundColor:"#fff"
+"#weedayItemIconThree" : {
+	image: "/img/snow.png",
+	width: 50,
+	height: 50,
+	top: 0
+}
+"#weedayItemTemperatureThree" : {
+	height: Ti.UI.SIZE,
+	top: 70,
+	font: {
+		fontSize: 18
+	},
+	color: "#fff"
+}
+".vLine" : {
+	width: 1,
+	height: Ti.UI.FILL,
+	top: 0,
+	right: 0,
+	backgroundColor: "#fff"
 }
