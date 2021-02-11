@@ -1,4 +1,5 @@
-var app_key = "Jere app key";
+// App-key kan hentes via : https://home.openweathermap.org/api_keys
+var app_key = "Jeres app key";
 
 function getHttpData(args, tries) {
   var xhr = Titanium.Network.createHTTPClient();
@@ -9,7 +10,6 @@ function getHttpData(args, tries) {
   }
 
   xhr.open(args.method, args.url);
-  xhr.setRequestHeader("Authorization", "Bearer " + Ti.App.Properties.getString('UserToKen'));
   xhr.setRequestHeader("Content-Type", "application/json");
   xhr.onload = function(e) {
     if (this.responseText != null) {
