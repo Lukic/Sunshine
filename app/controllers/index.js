@@ -7,7 +7,7 @@ Sunshine.getCurrentWeather({
     var currentTemp = result.main.temp;
 
     $.currentTemperature.text = currentTemp;
-    $.cityName.text = "London";
+    $.cityName.text = result.name;
 
     console.log(result.main.temp);
   },
